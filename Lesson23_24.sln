@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.YieldReturn", "1.YieldRet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.MyIterator", "2.MyIterator\2.MyIterator.csproj", "{A5CFAF0C-4EA7-4DDA-B1FC-0B5949A91B82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Generic", "3.Generic\3.Generic.csproj", "{09AAA486-BA86-4D3B-9FEF-17C605698F16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A5CFAF0C-4EA7-4DDA-B1FC-0B5949A91B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5CFAF0C-4EA7-4DDA-B1FC-0B5949A91B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5CFAF0C-4EA7-4DDA-B1FC-0B5949A91B82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09AAA486-BA86-4D3B-9FEF-17C605698F16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09AAA486-BA86-4D3B-9FEF-17C605698F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09AAA486-BA86-4D3B-9FEF-17C605698F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09AAA486-BA86-4D3B-9FEF-17C605698F16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
