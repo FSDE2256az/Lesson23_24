@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.GenericConstraint", "4.Ge
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.BoxingAndUnBoxing", "5.BoxingAndUnBoxing\5.BoxingAndUnBoxing.csproj", "{88327176-92B2-4D77-B67B-FC41EEBD1687}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Collection", "6. Collection\6. Collection.csproj", "{73F36CF9-F92A-4FB2-BDF6-656167DCA565}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{88327176-92B2-4D77-B67B-FC41EEBD1687}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88327176-92B2-4D77-B67B-FC41EEBD1687}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88327176-92B2-4D77-B67B-FC41EEBD1687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F36CF9-F92A-4FB2-BDF6-656167DCA565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F36CF9-F92A-4FB2-BDF6-656167DCA565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F36CF9-F92A-4FB2-BDF6-656167DCA565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F36CF9-F92A-4FB2-BDF6-656167DCA565}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
