@@ -26,6 +26,14 @@
 // 9. default
 
 
+class BaseForValue<T> where T : struct
+{
+    public void Foo()
+    {
+        Console.WriteLine("Base Foo function called");
+    }
+}
+
 class Base<T> where T : class, new()
 {
     public void Foo()
@@ -34,18 +42,28 @@ class Base<T> where T : class, new()
     }
 }
 
+class Student
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+}
 
 interface ISpeak { }
 abstract class Human { }
 
-class Person<T> where T: Human, ISpeak, new()
+class Person<T> where T : Human, ISpeak, new()
 {
     public void Boo()
     {
-       // Console.WriteLine(" Person Boo function called");
+        Console.WriteLine(" Person Boo function called");
     }
 }
 
+class Teacher : Human, ISpeak
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+}
 
 
 
@@ -55,6 +73,14 @@ public class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var baseclassForValue = new BaseForValue<DateTime>();
+
+
+        var baseclass = new Base<Student>();
+
+
+        var person = new Person<Teacher>();
+
+
     }
 }
